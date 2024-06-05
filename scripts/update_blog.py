@@ -7,14 +7,14 @@ import os
 rss_url = 'https://api.velog.io/rss/@kimyongwook98'
 
 # 깃허브 레포지토리 경로
-repo_path = 'https://github.com/kimyongwook98/VelogBeluga'
+repo_path = 'C:\\Users\\김용욱\\Desktop\\-'
 
 # 'velog-posts' 폴더 경로
 posts_dir = os.path.join(repo_path, 'velog-posts')
 
 # 'velog-posts' 폴더가 없다면 생성
-if not os.path.exists(posts_dir):
-    os.makedirs(posts_dir)
+#if not os.path.exists(posts_dir):
+#    os.mkdir(posts_dir)
 
 # 레포지토리 로드
 repo = git.Repo(repo_path)
